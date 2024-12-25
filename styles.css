@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Set background to black */
+  color: white;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Blood Moon', sans-serif; /* Blood Type font style */
+}
+
+#emailSection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#emailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tempEmail {
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#emails {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+#emailList {
+  margin-top: 10px;
+}
+
+@keyframes colorChange {
+  0% { color: white; }
+  25% { color: black; }
+  50% { color: red; }
+  75% { color: orange; }
+  100% { color: #8B0000; } /* Black + Red mix */
+}
+
+/* Style for Floating Telegram Icon */
+.telegram-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0088cc;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.telegram-link a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.telegram-link a:hover {
+  color: #006f9b;
+}
+
+.telegram-link i {
+  font-size: 24px;
+  margin-right: 10px;
+}
